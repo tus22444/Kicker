@@ -623,32 +623,29 @@
 
 
 #box {
-    width: auto;
-/* justify-content: center; */
-    align-self: center;
-    justify-self: center;
-    height: auto;
-    align-items: center;
     position: absolute;
-top: 50%;
-transform: translateY(-50%);
-    display: grid;
-    padding-bottom: 30px;
-    margin-top: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    max-width: calc(100% - 30px);
+
+    height: auto;
+
+    padding: 30px 40px;
+    box-sizing: border-box;
 
     background-color: white;
     border-radius: 10px;
+
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-}
-#memay {
-    justify-content: center;
-    justify-items: center;
-    display: flex;
+
+    display: grid;
     align-items: center;
-    gap: 8px; /* Space between the text and link */
-    margin-top:10px;
+    justify-items: center;
 }
 
 #memay p {

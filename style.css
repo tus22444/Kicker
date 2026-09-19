@@ -647,6 +647,14 @@
     align-items: center;
     justify-items: center;
 }
+#memay {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between the text and link */
+    margin-top:10px;
+}
 
 #memay p {
     margin: 1px;
